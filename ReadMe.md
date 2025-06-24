@@ -4,7 +4,7 @@ how it works:
 1. it records baseband audio samples from your microphone (0-20k hz)
 2. the samples go through Fast Fourier Transform with a buffer length that gives 0.5Hz resolution in the frequency domain
 3. the program looks up at FFT bins of notes and neighbouring bins (based on the attached table) and calculate gaussian average:
-![https://mixbutton.com/music-tools/frequency-and-pitch/music-note-to-frequency-chart]([media\image.png](https://github.com/NustyFrozen/Music-Instrument-Tuner/blob/main/media/image.png?raw=true))
+![https://mixbutton.com/music-tools/frequency-and-pitch/music-note-to-frequency-chart](https://github.com/NustyFrozen/Music-Instrument-Tuner/blob/main/media/image.png?raw=true))
 4. it takes the highest average and check for the mean value of the bins and based on the mean's bin index it calculate deviation from the actual note and then displays it through ImGUI
 
 ## requirements

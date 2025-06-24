@@ -1,4 +1,10 @@
 ## Musical Instrument Tuner / audio note detector
+
+
+
+https://github.com/user-attachments/assets/e8884f63-f34c-4a47-b06b-37a341fd55c4
+
+
 ![GUI](https://github.com/NustyFrozen/Music-Instrument-Tuner/blob/main/media/gui.png?raw=true)
 how it works:
 1. it records baseband audio samples from your microphone (0-20k hz)
